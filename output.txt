@@ -1,0 +1,1512 @@
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// SSN  (Calculatable) 
+/// Reference Number TC40BTPSSN
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("SSN"), Category("Category"), ReferenceNumber("TC40BTPSSN"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Last Name  (Calculatable) 
+/// Reference Number TC40BTPLastName
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Last Name"), Category("Category"), ReferenceNumber("TC40BTPLastName"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Residency Status: Nonresident  (Calculatable) 
+/// Reference Number TC40BNR
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Residency Status: Nonresident"), Category("Category"), ReferenceNumber("TC40BNR"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Residency Status: Home State Abbreviation  (Calculatable) 
+/// Reference Number TC40BNRState
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Residency Status: Home State Abbreviation"), Category("Category"), ReferenceNumber("TC40BNRState"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Residency Status: Part-Year Resident  (Calculatable) 
+/// Reference Number TC40BPY
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Residency Status: Part-Year Resident"), Category("Category"), ReferenceNumber("TC40BPY"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Residency Status: Date From: (mm/dd/yy)  (Calculatable) 
+/// Reference Number TC40BPYDateFrom
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Residency Status: Date From: (mm/dd/yy)"), Category("Category"), ReferenceNumber("TC40BPYDateFrom"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Header)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Residency Status: Date To: (mm/dd/yy)  (Calculatable) 
+/// Reference Number TC40BPYDateTo
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Residency Status: Date To: (mm/dd/yy)"), Category("Category"), ReferenceNumber("TC40BPYDateTo"), LineNumber("TC-40B, Header")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 1 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Wages, salaries, tips, etc. (1040/1040A Line 7, 1040EZ, Line 1) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BWagesA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Wages, salaries, tips, etc. (1040/1040A Line 7, 1040EZ, Line 1) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BWagesA"), LineNumber("TC-40B, Line 1 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 1 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Wages, salaries, tips, etc. (1040/1040A Line 7, 1040EZ, Line 1) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BWagesB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Wages, salaries, tips, etc. (1040/1040A Line 7, 1040EZ, Line 1) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BWagesB"), LineNumber("TC-40B, Line 1 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 2 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Taxable Interest Income (1040/1040A Line 8a, 1040EZ Line 2) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BInterestA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Taxable Interest Income (1040/1040A Line 8a, 1040EZ Line 2) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BInterestA"), LineNumber("TC-40B, Line 2 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 2 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Taxable Interest Income (1040/1040A Line 8a, 1040EZ Line 2) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BInterestB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Taxable Interest Income (1040/1040A Line 8a, 1040EZ Line 2) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BInterestB"), LineNumber("TC-40B, Line 2 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 3 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Ordinary Dividends (1040/1040A Line 9a) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BDividendsA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Ordinary Dividends (1040/1040A Line 9a) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BDividendsA"), LineNumber("TC-40B, Line 3 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 3 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Ordinary Dividends (1040/1040A Line 9a) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BDividendsB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Ordinary Dividends (1040/1040A Line 9a) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BDividendsB"), LineNumber("TC-40B, Line 3 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 4 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BTaxRefA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BTaxRefA"), LineNumber("TC-40B, Line 4 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 4 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BTaxRefB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BTaxRefB"), LineNumber("TC-40B, Line 4 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 5 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Alimony Received (1040 Line 11) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BAlimRecA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Alimony Received (1040 Line 11) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BAlimRecA"), LineNumber("TC-40B, Line 5 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 5 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Alimony Received (1040 Line 11) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BAlimRecB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Alimony Received (1040 Line 11) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BAlimRecB"), LineNumber("TC-40B, Line 5 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 6 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Business Income or (Loss) (1040 Line 12) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BBusIncA
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Business Income or (Loss) (1040 Line 12) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BBusIncA"), LineNumber("TC-40B, Line 6 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 6 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Business Income or (Loss) (1040 Line 12) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BBusIncB
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Business Income or (Loss) (1040 Line 12) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BBusIncB"), LineNumber("TC-40B, Line 6 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 7 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Capital Gain or (Loss) (1040 Line 13, 1040A Line 10) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BCapGLA
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Capital Gain or (Loss) (1040 Line 13, 1040A Line 10) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BCapGLA"), LineNumber("TC-40B, Line 7 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 7 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Capital Gain or (Loss) (1040 Line 13, 1040A Line 10) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BCapGLB
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Capital Gain or (Loss) (1040 Line 13, 1040A Line 10) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BCapGLB"), LineNumber("TC-40B, Line 7 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 8 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Other Gains or (Losses) (1040 Line 14) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BOthGLA
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Other Gains or (Losses) (1040 Line 14) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BOthGLA"), LineNumber("TC-40B, Line 8 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 8 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Other Gains or (Losses) (1040 Line 14) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BOthGLB
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Other Gains or (Losses) (1040 Line 14) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BOthGLB"), LineNumber("TC-40B, Line 8 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 9 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// IRA Distributions - Taxable Amount (1040 Line 15b, 1040A Line 11b) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BIRADistA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("IRA Distributions - Taxable Amount (1040 Line 15b, 1040A Line 11b) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BIRADistA"), LineNumber("TC-40B, Line 9 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 9 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// IRA Distributions - Taxable Amount (1040 Line 15b, 1040A Line 11b) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BIRADistB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("IRA Distributions - Taxable Amount (1040 Line 15b, 1040A Line 11b) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BIRADistB"), LineNumber("TC-40B, Line 9 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 10 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Pensions and Annuities - Taxable Amount (1040 Line 16b, 1040A Line 12b) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BPenA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Pensions and Annuities - Taxable Amount (1040 Line 16b, 1040A Line 12b) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BPenA"), LineNumber("TC-40B, Line 10 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 10 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Pensions and Annuities - Taxable Amount (1040 Line 16b, 1040A Line 12b) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BPenB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Pensions and Annuities - Taxable Amount (1040 Line 16b, 1040A Line 12b) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BPenB"), LineNumber("TC-40B, Line 10 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 11 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Rental Real Estate, Royalties, Partnerships, S Corporations, Trusts, etc. (1040 Line 17) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BSchEA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Rental Real Estate, Royalties, Partnerships, S Corporations, Trusts, etc. (1040 Line 17) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BSchEA"), LineNumber("TC-40B, Line 11 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 11 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Rental Real Estate, Royalties, Partnerships, S Corporations, Trusts, etc. (1040 Line 17) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BSchEB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Rental Real Estate, Royalties, Partnerships, S Corporations, Trusts, etc. (1040 Line 17) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BSchEB"), LineNumber("TC-40B, Line 11 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 12 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Farm Income or (Loss) (1040 Line 18) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BSchFA
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Farm Income or (Loss) (1040 Line 18) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BSchFA"), LineNumber("TC-40B, Line 12 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 12 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Farm Income or (Loss) (1040 Line 18) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BSchFB
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Farm Income or (Loss) (1040 Line 18) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BSchFB"), LineNumber("TC-40B, Line 12 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 13 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Unemployment Compensation (1040 Line 19, 1040A Line 13, 1040EZ Line 3) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BUnempA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Unemployment Compensation (1040 Line 19, 1040A Line 13, 1040EZ Line 3) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BUnempA"), LineNumber("TC-40B, Line 13 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 13 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Unemployment Compensation (1040 Line 19, 1040A Line 13, 1040EZ Line 3) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BUnempB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Unemployment Compensation (1040 Line 19, 1040A Line 13, 1040EZ Line 3) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BUnempB"), LineNumber("TC-40B, Line 13 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 14 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Social Security Benefits - Taxable Amount (1040 Line 20b, 1040A Line 14b) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BSSBA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Social Security Benefits - Taxable Amount (1040 Line 20b, 1040A Line 14b) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BSSBA"), LineNumber("TC-40B, Line 14 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 14 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Social Security Benefits - Taxable Amount (1040 Line 20b, 1040A Line 14b) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BSSBB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Social Security Benefits - Taxable Amount (1040 Line 20b, 1040A Line 14b) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BSSBB"), LineNumber("TC-40B, Line 14 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 15 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Other Income (1040 Line 21) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BOthIncA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Other Income (1040 Line 21) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BOthIncA"), LineNumber("TC-40B, Line 15 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 15 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Other Income (1040 Line 21) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BOthIncB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Other Income (1040 Line 21) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BOthIncB"), LineNumber("TC-40B, Line 15 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 16 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Additions to Income from TC-40A, Part 1 (Utah portion only in Utah column) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BAddIncA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Additions to Income from TC-40A, Part 1 (Utah portion only in Utah column) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BAddIncA"), LineNumber("TC-40B, Line 16 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 16 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Additions to Income from TC-40A, Part 1 (Utah portion only in Utah column) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BAddIncB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Additions to Income from TC-40A, Part 1 (Utah portion only in Utah column) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BAddIncB"), LineNumber("TC-40B, Line 16 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 17 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Total Income (Loss) - Add Lines 1 through 16 for Column A  (Calculatable) 
+/// Reference Number TC40BTotalIncA
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Total Income (Loss) - Add Lines 1 through 16 for Column A"), Category("Category"), ReferenceNumber("TC40BTotalIncA"), LineNumber("TC-40B, Line 17 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 17 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Total Income (Loss) - Add Lines 1 through 16 for Column B  (Calculatable) 
+/// Reference Number TC40BTotalIncB
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Total Income (Loss) - Add Lines 1 through 16 for Column B"), Category("Category"), ReferenceNumber("TC40BTotalIncB"), LineNumber("TC-40B, Line 17 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 18 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Educator Expenses (1040 Line 23, 1040A Line 16) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BEduExpA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Educator Expenses (1040 Line 23, 1040A Line 16) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BEduExpA"), LineNumber("TC-40B, Line 18 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 18 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Educator Expenses (1040 Line 23, 1040A Line 16) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BEduExpB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Educator Expenses (1040 Line 23, 1040A Line 16) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BEduExpB"), LineNumber("TC-40B, Line 18 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 19 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Certain Business Expenses of Reservists, Performing Artists, etc. (1040 Line 24) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BBusExpA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Certain Business Expenses of Reservists, Performing Artists, etc. (1040 Line 24) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BBusExpA"), LineNumber("TC-40B, Line 19 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 19 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Certain Business Expenses of Reservists, Performing Artists, etc. (1040 Line 24) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BBusExpB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Certain Business Expenses of Reservists, Performing Artists, etc. (1040 Line 24) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BBusExpB"), LineNumber("TC-40B, Line 19 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 20 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Health Savings Account Deduction (1040 Line 25) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BHSADedA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Health Savings Account Deduction (1040 Line 25) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BHSADedA"), LineNumber("TC-40B, Line 20 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 20 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Health Savings Account Deduction (1040 Line 25) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BHSADedB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Health Savings Account Deduction (1040 Line 25) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BHSADedB"), LineNumber("TC-40B, Line 20 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 21 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Moving expenses (1040 Line 26) - enter in Column A only Expenses moving into Utah - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BMovingA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Moving expenses (1040 Line 26) - enter in Column A only Expenses moving into Utah - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BMovingA"), LineNumber("TC-40B, Line 21 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 21 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Moving expenses (1040 Line 26) - enter in Column A only Expenses moving into Utah - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BMovingB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Moving expenses (1040 Line 26) - enter in Column A only Expenses moving into Utah - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BMovingB"), LineNumber("TC-40B, Line 21 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 22 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Deductible Part of Self-Employment Tax (1040 Line 27) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BDedSETaxA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Deductible Part of Self-Employment Tax (1040 Line 27) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BDedSETaxA"), LineNumber("TC-40B, Line 22 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 22 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Deductible Part of Self-Employment Tax (1040 Line 27) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BDedSETaxB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Deductible Part of Self-Employment Tax (1040 Line 27) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BDedSETaxB"), LineNumber("TC-40B, Line 22 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 23 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Self-Employed SEP, SIMPLE and Qualified Plans (1040 Line 28) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BSEPSimQualA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Self-Employed SEP, SIMPLE and Qualified Plans (1040 Line 28) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BSEPSimQualA"), LineNumber("TC-40B, Line 23 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 23 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Self-Employed SEP, SIMPLE and Qualified Plans (1040 Line 28) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BSEPSimQualB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Self-Employed SEP, SIMPLE and Qualified Plans (1040 Line 28) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BSEPSimQualB"), LineNumber("TC-40B, Line 23 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 24 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Self-Employed Health Insurance Deduction (1040 Line 29) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BSEHInsDedA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Self-Employed Health Insurance Deduction (1040 Line 29) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BSEHInsDedA"), LineNumber("TC-40B, Line 24 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 24 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Self-Employed Health Insurance Deduction (1040 Line 29) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BSEHInsDedB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Self-Employed Health Insurance Deduction (1040 Line 29) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BSEHInsDedB"), LineNumber("TC-40B, Line 24 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 25 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Penalty on Early Withdrawal of Savings (1040 Line 30) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BPenEarlySavA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Penalty on Early Withdrawal of Savings (1040 Line 30) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BPenEarlySavA"), LineNumber("TC-40B, Line 25 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 25 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Penalty on Early Withdrawal of Savings (1040 Line 30) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BPenEarlySavB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Penalty on Early Withdrawal of Savings (1040 Line 30) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BPenEarlySavB"), LineNumber("TC-40B, Line 25 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 26 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Alimony Paid (1040 Line 31a) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BAlimPaidA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Alimony Paid (1040 Line 31a) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BAlimPaidA"), LineNumber("TC-40B, Line 26 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 26 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Alimony Paid (1040 Line 31a) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BAlimPaidB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Alimony Paid (1040 Line 31a) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BAlimPaidB"), LineNumber("TC-40B, Line 26 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 27 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// IRA Deduction (1040 Line 32, 1040A Line 17) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BIRADedA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("IRA Deduction (1040 Line 32, 1040A Line 17) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BIRADedA"), LineNumber("TC-40B, Line 27 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 27 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// IRA Deduction (1040 Line 32, 1040A Line 17) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BIRADedB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("IRA Deduction (1040 Line 32, 1040A Line 17) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BIRADedB"), LineNumber("TC-40B, Line 27 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 28 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Student Loan Interest Deduction (1040 Line 33, 1040A Line 18) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BStudentA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Student Loan Interest Deduction (1040 Line 33, 1040A Line 18) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BStudentA"), LineNumber("TC-40B, Line 28 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 28 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Student Loan Interest Deduction (1040 Line 33, 1040A Line 18) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BStudentB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Student Loan Interest Deduction (1040 Line 33, 1040A Line 18) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BStudentB"), LineNumber("TC-40B, Line 28 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 29 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Tuition and Fees (1040 Line 34, 1040A Line 19) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BTuitionFeesA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Tuition and Fees (1040 Line 34, 1040A Line 19) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BTuitionFeesA"), LineNumber("TC-40B, Line 29 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 29 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Tuition and Fees (1040 Line 34, 1040A Line 19) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BTuitionFeesB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Tuition and Fees (1040 Line 34, 1040A Line 19) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BTuitionFeesB"), LineNumber("TC-40B, Line 29 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 30 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Domestic Production Activities Deduction (1040 Line 35) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BDomProdA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Domestic Production Activities Deduction (1040 Line 35) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BDomProdA"), LineNumber("TC-40B, Line 30 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 30 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Domestic Production Activities Deduction (1040 Line 35) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BDomProdB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Domestic Production Activities Deduction (1040 Line 35) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BDomProdB"), LineNumber("TC-40B, Line 30 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 31 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BTaxRefSubA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BTaxRefSubA"), LineNumber("TC-40B, Line 31 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 31 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BTaxRefSubB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BTaxRefSubB"), LineNumber("TC-40B, Line 31 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 32 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Subtractions from Income from TC-40A, Part 2 (Utah Portion only in Utah column) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BSubIncA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Subtractions from Income from TC-40A, Part 2 (Utah Portion only in Utah column) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BSubIncA"), LineNumber("TC-40B, Line 32 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 32 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Subtractions from Income from TC-40A, Part 2 (Utah Portion only in Utah column) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BSubIncB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Subtractions from Income from TC-40A, Part 2 (Utah Portion only in Utah column) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BSubIncB"), LineNumber("TC-40B, Line 32 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line )
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Collection of Federal Other Adjustments on Federal Form 1040 Line 36  (Calculatable) 
+/// Reference Number TC40BFedAdjGroup
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Collection of Federal Other Adjustments on Federal Form 1040 Line 36"), Category("Category"), ReferenceNumber("TC40BFedAdjGroup"), LineNumber("")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line )
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Line 33 (see instructions) - Description  (Calculatable) 
+/// Reference Number TC40BFedAdjDescrip
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Line 33 (see instructions) - Description"), Category("Category"), ReferenceNumber("TC40BFedAdjDescrip"), LineNumber("")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line )
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Line 33 (see instructions) - Amount  (Calculatable) 
+/// Reference Number TC40BFedAdjAmt
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Line 33 (see instructions) - Amount"), Category("Category"), ReferenceNumber("TC40BFedAdjAmt"), LineNumber("")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line )
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+///   (Calculatable) 
+/// Reference Number TC40BFedAdjGroup
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description(""), Category("Category"), ReferenceNumber("TC40BFedAdjGroup"), LineNumber("")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 33 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Line 33 (see instructions) - Column A - UTAH  (Calculatable) 
+/// Reference Number TC40BFedAdjA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Line 33 (see instructions) - Column A - UTAH"), Category("Category"), ReferenceNumber("TC40BFedAdjA"), LineNumber("TC-40B, Line 33 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 33 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Line 33 (see instructions) - Column B - TOTAL  (Calculatable) 
+/// Reference Number TC40BFedAdjB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Line 33 (see instructions) - Column B - TOTAL"), Category("Category"), ReferenceNumber("TC40BFedAdjB"), LineNumber("TC-40B, Line 33 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 34 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Total Adjustments - Add Lines 18 through 33 for Column A  (Calculatable) 
+/// Reference Number TC40BTotalAdjA
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Total Adjustments - Add Lines 18 through 33 for Column A"), Category("Category"), ReferenceNumber("TC40BTotalAdjA"), LineNumber("TC-40B, Line 34 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 34 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Total Adjustments - Add Lines 18 through 33 for Column B  (Calculatable) 
+/// Reference Number TC40BTotalAdjB
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Total Adjustments - Add Lines 18 through 33 for Column B"), Category("Category"), ReferenceNumber("TC40BTotalAdjB"), LineNumber("TC-40B, Line 34 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 35 Column A)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Subtract Line 34 from Line 17 for Column A  (Calculatable) 
+/// Reference Number TC40BTotalIncA
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Subtract Line 34 from Line 17 for Column A"), Category("Category"), ReferenceNumber("TC40BTotalIncA"), LineNumber("TC-40B, Line 35 Column A")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 35 Column B)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Subtract Line 34 from Line 17 for Column B (Line 35, Column B MUST equal TC-40, Line 9)  (Calculatable) 
+/// Reference Number TC40BTotalIncB
+/// </summary> 
+[Money(AllowNegative = true, Precision = PrecisionType.Zero)] 
+[Description("Subtract Line 34 from Line 17 for Column B (Line 35, Column B MUST equal TC-40, Line 9)"), Category("Category"), ReferenceNumber("TC40BTotalIncB"), LineNumber("TC-40B, Line 35 Column B")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 36)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Divide Line 35 Column A by Line 35 Column B (to 4 decimal places) - Do not enter a number greater than 1.0000 or less than 0.0000.  (Calculatable) 
+/// Reference Number TC40BPYNRRatio
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Divide Line 35 Column A by Line 35 Column B (to 4 decimal places) - Do not enter a number greater than 1.0000 or less than 0.0000."), Category("Category"), ReferenceNumber("TC40BPYNRRatio"), LineNumber("TC-40B, Line 36")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 37)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Subtract TC-40, Line 24 from TC-40, Line 23 and enter the result (not less than zero) here  (Calculatable) 
+/// Reference Number TC40BTaxIncome
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Subtract TC-40, Line 24 from TC-40, Line 23 and enter the result (not less than zero) here"), Category("Category"), ReferenceNumber("TC40BTaxIncome"), LineNumber("TC-40B, Line 37")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+
+#region decimal TestField (Line TC-40B, Line 38)
+internal Calculatable<decimal, RoundedToTheNearestInteger> _testField;
+/// <summary> 
+/// Multiply Line 37 by the decimal on Line 36. This is your Utah tax. Enter on TC-40, Page 2, Line 25.  (Calculatable) 
+/// Reference Number TC40BUtahTax
+/// </summary> 
+[Money(AllowNegative = false, Precision = PrecisionType.Zero)] 
+[Description("Multiply Line 37 by the decimal on Line 36. This is your Utah tax. Enter on TC-40, Page 2, Line 25."), Category("Category"), ReferenceNumber("TC40BUtahTax"), LineNumber("TC-40B, Line 38")] 
+public decimal TestField { get { return __testField.Calculate(TestField_Calculation); } } 
+private decimal TestField_Calculation() 
+{ 
+	 
+	 //TODO: Enter code for TestField calculation 
+} 
+#endregion TestField 
+
+
+

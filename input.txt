@@ -1,0 +1,90 @@
+			HEADER	
+TC40BTPSSN	TC-40B, Header	SSN/ITIN	SSN	TP's SSN
+TC40BTPLastName	TC-40B, Header	Text	Last Name	TP's Last Name
+TC40BNR	TC-40B, Header	Yes/No/Blank	Residency Status: Nonresident	IF Residency Status for UT equals NR THEN check the box; otherwise leave blank
+TC40BNRState	TC-40B, Header	Enum: State	Residency Status: Home State Abbreviation	IF Nonresident checkbox is selected THEN return the Residency State; otherwise leave blank
+TC40BPY	TC-40B, Header	Yes/No/Blank	Residency Status: Part-Year Resident	IF Residency Status for UT equals PY THEN check the box; otherwise leave blank
+TC40BPYDateFrom	TC-40B, Header	Date	Residency Status: Date From: (mm/dd/yy)	IF TP is PY then return the TP's PY Resident Beginning Date; otherwise if SP is PY then return SP's PY Resident Beginning Date; otherwise leave blank
+TC40BPYDateTo	TC-40B, Header	Date	Residency Status: Date To: (mm/dd/yy)	IF TP is PY then return the TP's PY Resident Ending Date; otherwise if SP is PY then return SP's PY Resident Ending Date; otherwise leave blank
+			INCOME	
+TC40BWagesA	TC-40B, Line 1 Column A	Money (non-negative)	Wages, salaries, tips, etc. (1040/1040A Line 7, 1040EZ, Line 1) - Column A - UTAH	Populate with only the UT Wages, salaries, tips, etc.
+TC40BWagesB	TC-40B, Line 1 Column B	Money (non-negative)	Wages, salaries, tips, etc. (1040/1040A Line 7, 1040EZ, Line 1) - Column B - TOTAL	Federal Form 1040 Line 7
+TC40BInterestA	TC-40B, Line 2 Column A	Money (non-negative)	Taxable Interest Income (1040/1040A Line 8a, 1040EZ Line 2) - Column A - UTAH	Populate with only the UT Taxable Interest Income
+TC40BInterestB	TC-40B, Line 2 Column B	Money (non-negative)	Taxable Interest Income (1040/1040A Line 8a, 1040EZ Line 2) - Column B - TOTAL	Federal Form 1040 Line 8a
+TC40BDividendsA	TC-40B, Line 3 Column A	Money (non-negative)	Ordinary Dividends (1040/1040A Line 9a) - Column A - UTAH	Populate with only the UT Ordinary Dividends
+TC40BDividendsB	TC-40B, Line 3 Column B	Money (non-negative)	Ordinary Dividends (1040/1040A Line 9a) - Column B - TOTAL	Federal Form 1040 Line 9a
+TC40BTaxRefA	TC-40B, Line 4 Column A	Money (non-negative)	Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column A - UTAH	Populate with only the UT Taxable Refunds
+TC40BTaxRefB	TC-40B, Line 4 Column B	Money (non-negative)	Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column B - TOTAL	Federal Form 1040 Line 10
+TC40BAlimRecA	TC-40B, Line 5 Column A	Money (non-negative)	Alimony Received (1040 Line 11) - Column A - UTAH	Populate with only the UT Alimony Received
+TC40BAlimRecB	TC-40B, Line 5 Column B	Money (non-negative)	Alimony Received (1040 Line 11) - Column B - TOTAL	Federal Form 1040 Line 11
+TC40BBusIncA	TC-40B, Line 6 Column A	Money (allow negative)	Business Income or (Loss) (1040 Line 12) - Column A - UTAH	Populate with only the UT Business Income/Loss
+TC40BBusIncB	TC-40B, Line 6 Column B	Money (allow negative)	Business Income or (Loss) (1040 Line 12) - Column B - TOTAL	Federal Form 1040 Line 12
+TC40BCapGLA	TC-40B, Line 7 Column A	Money (allow negative)	Capital Gain or (Loss) (1040 Line 13, 1040A Line 10) - Column A - UTAH	Populate with only the UT Capital Gain/Loss
+TC40BCapGLB	TC-40B, Line 7 Column B	Money (allow negative)	Capital Gain or (Loss) (1040 Line 13, 1040A Line 10) - Column B - TOTAL	Federal Form 1040 Line 13
+TC40BOthGLA	TC-40B, Line 8 Column A	Money (allow negative)	Other Gains or (Losses) (1040 Line 14) - Column A - UTAH	Populate with only the UT Other Gains/Losses
+TC40BOthGLB	TC-40B, Line 8 Column B	Money (allow negative)	Other Gains or (Losses) (1040 Line 14) - Column B - TOTAL	Federal Form 1040 Line 14
+TC40BIRADistA	TC-40B, Line 9 Column A	Money (non-negative)	IRA Distributions - Taxable Amount (1040 Line 15b, 1040A Line 11b) - Column A - UTAH	Populate with only the IRA Distributions attributed to UT
+TC40BIRADistB	TC-40B, Line 9 Column B	Money (non-negative)	IRA Distributions - Taxable Amount (1040 Line 15b, 1040A Line 11b) - Column B - TOTAL	Federal Form 1040 Line 15b
+TC40BPenA	TC-40B, Line 10 Column A	Money (non-negative)	Pensions and Annuities - Taxable Amount (1040 Line 16b, 1040A Line 12b) - Column A - UTAH	Populate with only the UT Pensions and Annuities
+TC40BPenB	TC-40B, Line 10 Column B	Money (non-negative)	Pensions and Annuities - Taxable Amount (1040 Line 16b, 1040A Line 12b) - Column B - TOTAL	Federal Form 1040 Line 16b
+TC40BSchEA	TC-40B, Line 11 Column A	Money (non-negative)	Rental Real Estate, Royalties, Partnerships, S Corporations, Trusts, etc. (1040 Line 17) - Column A - UTAH	Populate with only the UT Schedule E Income
+TC40BSchEB	TC-40B, Line 11 Column B	Money (non-negative)	Rental Real Estate, Royalties, Partnerships, S Corporations, Trusts, etc. (1040 Line 17) - Column B - TOTAL	Federal Form 1040 Line 17
+TC40BSchFA	TC-40B, Line 12 Column A	Money (allow negative)	Farm Income or (Loss) (1040 Line 18) - Column A - UTAH	Populate with only the UT Schedule F Income/Loss
+TC40BSchFB	TC-40B, Line 12 Column B	Money (allow negative)	Farm Income or (Loss) (1040 Line 18) - Column B - TOTAL	Federal Form 1040 Line 18
+TC40BUnempA	TC-40B, Line 13 Column A	Money (non-negative)	Unemployment Compensation (1040 Line 19, 1040A Line 13, 1040EZ Line 3) - Column A - UTAH	Populate with only the Unemployment Compensation received in UT
+TC40BUnempB	TC-40B, Line 13 Column B	Money (non-negative)	Unemployment Compensation (1040 Line 19, 1040A Line 13, 1040EZ Line 3) - Column B - TOTAL	Federal Form 1040 Line 19
+TC40BSSBA	TC-40B, Line 14 Column A	Money (non-negative)	Social Security Benefits - Taxable Amount (1040 Line 20b, 1040A Line 14b) - Column A - UTAH	Populate with only the Social Security Benefits received in UT
+TC40BSSBB	TC-40B, Line 14 Column B	Money (non-negative)	Social Security Benefits - Taxable Amount (1040 Line 20b, 1040A Line 14b) - Column B - TOTAL	Federal Form 1040 Line 20b
+TC40BOthIncA	TC-40B, Line 15 Column A	Money (non-negative)	Other Income (1040 Line 21) - Column A - UTAH	Populate with only the UT Other Income
+TC40BOthIncB	TC-40B, Line 15 Column B	Money (non-negative)	Other Income (1040 Line 21) - Column B - TOTAL	Federal Form 1040 Line 21
+TC40BAddIncA	TC-40B, Line 16 Column A	Money (non-negative)	Additions to Income from TC-40A, Part 1 (Utah portion only in Utah column) - Column A - UTAH	direct entry in UI
+TC40BAddIncB	TC-40B, Line 16 Column B	Money (non-negative)	Additions to Income from TC-40A, Part 1 (Utah portion only in Utah column) - Column B - TOTAL	TC-40A Part 1 Total
+TC40BTotalIncA	TC-40B, Line 17 Column A	Money (allow negative)	Total Income (Loss) - Add Lines 1 through 16 for Column A	Add Lines 1 through 16 together from Column A
+TC40BTotalIncB	TC-40B, Line 17 Column B	Money (allow negative)	Total Income (Loss) - Add Lines 1 through 16 for Column B	Add Lines 1 through 16 together from Column B
+			ADJUSTMENTS	
+TC40BEduExpA	TC-40B, Line 18 Column A	Money (non-negative)	Educator Expenses (1040 Line 23, 1040A Line 16) - Column A - UTAH	Populate with only the UT Educator Expenses
+TC40BEduExpB	TC-40B, Line 18 Column B	Money (non-negative)	Educator Expenses (1040 Line 23, 1040A Line 16) - Column B - TOTAL	Federal Form 1040 Line 23
+TC40BBusExpA	TC-40B, Line 19 Column A	Money (non-negative)	Certain Business Expenses of Reservists, Performing Artists, etc. (1040 Line 24) - Column A - UTAH	Populate with only the Certain Business Expenses attributable to UT
+TC40BBusExpB	TC-40B, Line 19 Column B	Money (non-negative)	Certain Business Expenses of Reservists, Performing Artists, etc. (1040 Line 24) - Column B - TOTAL	Federal Form 1040 Line 24
+TC40BHSADedA	TC-40B, Line 20 Column A	Money (non-negative)	Health Savings Account Deduction (1040 Line 25) - Column A - UTAH	Populate with only the Health Savings Account Deduction attributable to UT
+TC40BHSADedB	TC-40B, Line 20 Column B	Money (non-negative)	Health Savings Account Deduction (1040 Line 25) - Column B - TOTAL	Federal Form 1040 Line 25
+TC40BMovingA	TC-40B, Line 21 Column A	Money (non-negative)	Moving expenses (1040 Line 26) - enter in Column A only Expenses moving into Utah - Column A - UTAH	Populate with only the Moving Expenses to UT
+TC40BMovingB	TC-40B, Line 21 Column B	Money (non-negative)	Moving expenses (1040 Line 26) - enter in Column A only Expenses moving into Utah - Column B - TOTAL	Federal Form 1040 Line 26
+TC40BDedSETaxA	TC-40B, Line 22 Column A	Money (non-negative)	Deductible Part of Self-Employment Tax (1040 Line 27) - Column A - UTAH	Populate with only the Deductible Part of Self-Employment Tax attributable to UT
+TC40BDedSETaxB	TC-40B, Line 22 Column B	Money (non-negative)	Deductible Part of Self-Employment Tax (1040 Line 27) - Column B - TOTAL	Federal Form 1040 Line 27
+TC40BSEPSimQualA	TC-40B, Line 23 Column A	Money (non-negative)	Self-Employed SEP, SIMPLE and Qualified Plans (1040 Line 28) - Column A - UTAH	Populate with only the Self-Employed SEP, SIMPLE and Qualified Plans attributable to UT
+TC40BSEPSimQualB	TC-40B, Line 23 Column B	Money (non-negative)	Self-Employed SEP, SIMPLE and Qualified Plans (1040 Line 28) - Column B - TOTAL	Federal Form 1040 Line 28
+TC40BSEHInsDedA	TC-40B, Line 24 Column A	Money (non-negative)	Self-Employed Health Insurance Deduction (1040 Line 29) - Column A - UTAH	Populate with only the Self-Employed Health Insurance Deduction attributable to UT
+TC40BSEHInsDedB	TC-40B, Line 24 Column B	Money (non-negative)	Self-Employed Health Insurance Deduction (1040 Line 29) - Column B - TOTAL	Federal Form 1040 Line 29
+TC40BPenEarlySavA	TC-40B, Line 25 Column A	Money (non-negative)	Penalty on Early Withdrawal of Savings (1040 Line 30) - Column A - UTAH	Populate with only the Penalty on Early Withdrawal of Savings attributable to UT
+TC40BPenEarlySavB	TC-40B, Line 25 Column B	Money (non-negative)	Penalty on Early Withdrawal of Savings (1040 Line 30) - Column B - TOTAL	Federal Form 1040 Line 30
+TC40BAlimPaidA	TC-40B, Line 26 Column A	Money (non-negative)	Alimony Paid (1040 Line 31a) - Column A - UTAH	Populate with only the Alimony Paid attributable to UT
+TC40BAlimPaidB	TC-40B, Line 26 Column B	Money (non-negative)	Alimony Paid (1040 Line 31a) - Column B - TOTAL	Federal Form 1040 Line 31a
+TC40BIRADedA	TC-40B, Line 27 Column A	Money (non-negative)	IRA Deduction (1040 Line 32, 1040A Line 17) - Column A - UTAH	Populate with only the IRA Deduction attributable to UT
+TC40BIRADedB	TC-40B, Line 27 Column B	Money (non-negative)	IRA Deduction (1040 Line 32, 1040A Line 17) - Column B - TOTAL	Federal Form 1040 Line 32
+TC40BStudentA	TC-40B, Line 28 Column A	Money (non-negative)	Student Loan Interest Deduction (1040 Line 33, 1040A Line 18) - Column A - UTAH	Populate with only the Student Loan Interest Deduction attributable to UT
+TC40BStudentB	TC-40B, Line 28 Column B	Money (non-negative)	Student Loan Interest Deduction (1040 Line 33, 1040A Line 18) - Column B - TOTAL	Federal Form 1040 Line 33
+TC40BTuitionFeesA	TC-40B, Line 29 Column A	Money (non-negative)	Tuition and Fees (1040 Line 34, 1040A Line 19) - Column A - UTAH	Populate with only the Tuition and Fees attributable to UT
+TC40BTuitionFeesB	TC-40B, Line 29 Column B	Money (non-negative)	Tuition and Fees (1040 Line 34, 1040A Line 19) - Column B - TOTAL	Fedearl Form 1040 Line 34
+TC40BDomProdA	TC-40B, Line 30 Column A	Money (non-negative)	Domestic Production Activities Deduction (1040 Line 35) - Column A - UTAH	Populate with only the Domestic Production Activities Deduction attributable to UT
+TC40BDomProdB	TC-40B, Line 30 Column B	Money (non-negative)	Domestic Production Activities Deduction (1040 Line 35) - Column B - TOTAL	Federal Form 1040 Line 35
+TC40BTaxRefSubA	TC-40B, Line 31 Column A	Money (non-negative)	Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column A - UTAH	Populate with only the UT Taxable Refunds
+TC40BTaxRefSubB	TC-40B, Line 31 Column B	Money (non-negative)	Taxable Refunds, Credits, or Offsets of State and Local Income Taxes (1040 Line 10) - Column B - TOTAL	Federal Form 1040 Line 10
+TC40BSubIncA	TC-40B, Line 32 Column A	Money (non-negative)	Subtractions from Income from TC-40A, Part 2 (Utah Portion only in Utah column) - Column A - UTAH	direct entry in UI
+TC40BSubIncB	TC-40B, Line 32 Column B	Money (non-negative)	Subtractions from Income from TC-40A, Part 2 (Utah Portion only in Utah column) - Column B - TOTAL	TC-40A Part 2 Total
+TC40BFedAdjGroup		Collection Start	Collection of Federal Other Adjustments on Federal Form 1040 Line 36	Populate the first description to Line 33, all others for MeF, if needed
+TC40BFedAdjDescrip		Text	Line 33 (see instructions) - Description	Federal Form 1040 Line 36a description
+TC40BFedAdjAmt		Money (non-negative)	Line 33 (see instructions) - Amount	Populate with only the other adjustments related to UT
+TC40BFedAdjGroup		Collection End		
+TC40BFedAdjA	TC-40B, Line 33 Column A	Money (non-negative)	Line 33 (see instructions) - Column A - UTAH	Total ALL Amounts from user entries
+TC40BFedAdjB	TC-40B, Line 33 Column B	Money (non-negative)	Line 33 (see instructions) - Column B - TOTAL	Federal Form 1040 Line 36
+TC40BTotalAdjA	TC-40B, Line 34 Column A	Money (non-negative)	Total Adjustments - Add Lines 18 through 33 for Column A	Add Lines 18 through 33 together for Column A
+TC40BTotalAdjB	TC-40B, Line 34 Column B	Money (non-negative)	Total Adjustments - Add Lines 18 through 33 for Column B	Add Lines 18 through 33 together for Column B
+			TOTALS	
+TC40BTotalIncA	TC-40B, Line 35 Column A	Money (allow negative)	Subtract Line 34 from Line 17 for Column A	Line 17 Column A minus Line 34 Column A
+TC40BTotalIncB	TC-40B, Line 35 Column B	Money (allow negative)	Subtract Line 34 from Line 17 for Column B (Line 35, Column B MUST equal TC-40, Line 9)	Line 17 Column B minus Line 34 Column B
+			NON or PART-YEAR RESIDENT UTAH TAX	
+TC40BPYNRRatio	TC-40B, Line 36	Ratio/Percentage	Divide Line 35 Column A by Line 35 Column B (to 4 decimal places) - Do not enter a number greater than 1.0000 or less than 0.0000.	Line 35 Column A divided by Line 35 Column B (to 4 decimal places) (cannot be greater than 1.0000 or less than 0.0000)
+TC40BTaxIncome	TC-40B, Line 37	Money (non-negative)	Subtract TC-40, Line 24 from TC-40, Line 23 and enter the result (not less than zero) here	TC-40, Line 23 minus TC-40 Line 24 (but not less than 0)
+TC40BUtahTax	TC-40B, Line 38	Money (non-negative)	Multiply Line 37 by the decimal on Line 36. This is your Utah tax. Enter on TC-40, Page 2, Line 25.	Multiply Line 37 by the decimal on Line 36
+			END OF FORM	
